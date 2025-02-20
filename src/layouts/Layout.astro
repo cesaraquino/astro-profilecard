@@ -1,0 +1,19 @@
+---
+import ProfileCard from "@/components/ProfileCard.astro";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Profile Card</title>
+  </head>
+  <body
+    class="bg-[url('./src/assets/bg.png')] bg-cover bg-center bg-no-repeat min-h-[100vh] flex flex-col items-center justify-center">
+    <ProfileCard />
+    <slot />
+  </body>
+</html>
