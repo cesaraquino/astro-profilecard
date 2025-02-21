@@ -1,27 +1,32 @@
 <div
-  class="w-[1098px] min-h-[544px] border-20 border-white rounded-[30px] bg-white/70 grid grid-cols-[1fr_2fr] gap-10">
-  <div class="flex flex-col items-end pt-8">
+  class="w-[95%] md:max-w-[1098px] min-h-[544px] border-10 lg:border-20 border-white rounded-[30px] bg-white/70 grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-10 p-4 lg:p-0">
+  <div class="flex flex-col items-center md:items-end pt-0 pt-8">
     <img
       src="./profile_picture.png"
       alt="John Deo"
-      class="w-[250px]h-[250px] rounded-full border-10 border-[#e6e6e6]"
+      class="size-[150px] md:size-[200px] lg:size-[250px] rounded-full border-5 lg:border-10 border-[#e6e6e6]"
     />
   </div>
   <div class="flex flex-col justify-center">
-    <h1 class="font-[Merriweather] text-[32px] font-bold">John Deo</h1>
-    <h2 class="text-2xl text-[#5F627A] mb-6">Frontend Developer</h2>
+    <div class="text-center md:text-left mb-11 text-lg md:text-2xl">
+      <h1 class="font-[Merriweather] text-2xl md:text-[32px] font-bold">
+        John Deo
+      </h1>
+      <h2 class="text-[#5F627A] mb-6">Frontend Developer</h2>
 
-    <p class="text-2xl mb-11">
-      Passionate frontend developer with expertise in HTML, CSS, JavaScript and
-      React.
-    </p>
+      <p>
+        Passionate frontend developer with expertise in HTML, CSS, JavaScript
+        and React.
+      </p>
+    </div>
 
-    <div class="flex flex-row text-center font-medium gap-11 mb-11">
+    <div
+      class="flex flex-row justify-between md:justify-start text-center font-medium gap-2 md:gap-8 lg:gap-11 mb-11 text-base md:text-xl">
       <div>
         <p>1999</p>
         <p>Followers</p>
       </div>
-      <div class="border-x-[#141843] border-x-1 px-11">
+      <div class="border-x-[#141843] border-x-1 px-6 lg:px-11">
         <p>190</p>
         <p>Following</p>
       </div>
@@ -31,7 +36,7 @@
       </div>
     </div>
 
-    <div class="flex flex-row gap-6">
+    <div class="flex flex-row gap-6 justify-center md:justify-start">
       <button
         class="bg-[#AEF1F5] border-x-[#141843] border-1 rounded-[10px] font-medium w-40 h-16 text-center cursor-pointer">
         Follow
